@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.logo {
+    margin-left: 200px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+li {
+    padding: 2px;
+    margin: 5px;
+}
+
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.top-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;  
+    margin-left: 200px;
+}
+
+.content div {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.content p, li {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+button {
+    width: 80px;
+    height: auto;
+    padding: 3px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 7px;
+}
+
+.top img {
+    width: 350px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    outline: 3px solid firebrick;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    column-gap: 20px;
+}
+
+.images {   
+    display: flex;
+    border: 3px solid firebrick;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images img {
+    border-radius: 7px;
+}
+
+.quote container {
+    outline: 3px solid rgb(25, 19, 107);
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    outline: 3px solid firebrick; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    outline: 3px solid firebrick; 
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    outline: 3px solid rgb(25, 19, 107); 
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 900px;
+    height: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.middle button {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.footer {
+    display: flex;
+    outline: 3px solid firebrick; 
+    justify-content: center;
+    align-items: center;
+}
