@@ -74,7 +74,7 @@ button {
 }
 
 .top img {
-    width: 350px;
+    max-width: 350px;
     height: auto;
     margin-left: auto;
 }
@@ -92,14 +92,13 @@ button {
 }
 
 .info img {
-    width: 120px;
+    max-width: 140px;
     height: auto;
     border-radius: 7px;
 }
 
 .container {
     display: flex;
-    
     margin-bottom: 50px;
     margin-right: 200px;  
     margin-left: 200px;
@@ -117,9 +116,10 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 120px;
+    width: 140px;
     height: auto;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .quote {
@@ -170,8 +170,8 @@ button {
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 90px;
+    padding-left: 35px;
 }
 
 .button {
